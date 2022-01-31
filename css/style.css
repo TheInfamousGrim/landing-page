@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 10px 10px 40px;
+    list-style-image: url(../img/vaporwave_scaled.png);
+}
+
+button {
+    padding: 5px;
+    background-color: #fffb96;
+    border-radius: 5px;
+    border: 5px solid #e4e18a;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #fffed4;
+    border-color: #e0dea0;
+}
+
+
+
+/* Header stylings */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e0d3a;
+    max-height: 20em;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    color: #f7f7ff;
+}
+
+.header-left-side {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 2px 10px 10px;
+
+}
+
+.company-title {
+    text-decoration: solid;
+    text-transform: capitalize;
+    margin: 0 0.8em;
+}
+
+.fun-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 10px 10px 10px 2px;
+}
+
+.fun-links-anchor {
+    color: #f7f7ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fun-links-anchor:hover {
+    color: #939397;
+}
+
+li {
+    margin: 1em;
+}
+
+/* End of Header Stylings */
+
+/* Main content */
+
+.main {
+    background-color: #ff71ce;
+    margin: 0 auto;
+    padding: 10vh 10vw;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.sign-up {
+    max-height: 530px;
+    max-width: 500px;
+    margin: 10px;
+}
+
+.sign-up-button {
+    margin: 10px 10px 10px 0px;
+
+}
+
+.welcome-image {
+    max-height: 333px;
+    max-width: 500px;
+
+}
+
+.welcome-image-credits {
+    margin-top: 0px;
+}
+
+/* Main Content ending */
+
+/* consultants */
+
+.consultants {
+    background-color: #01cdfe;
+    margin: 0 auto;
+    padding: 10vh 10vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultants-heading {
+    text-align: center;
+}
+
+.consultants-pictures {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+.consultants-pictures img {
+    border: 5px solid #fffb96;
+    border-radius: 15px;
+}
+
+.helios-container,
+.simpsonwave-container,
+.sailor-moon-container,
+.h3h3-container {
+    max-width: 200px;
+    min-height: 428px;
+    margin: 10px;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+/* consultants ending */
+
+/* testimonial */
+
+.testimonial {
+    background-color: #05ffa1;
+    margin: 0 auto;
+    padding: 10vh 10vw;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quoted-by {
+    align-self: flex-end;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* testimonial end */
+
+/* top-footer */
+
+.top-footer {
+    background-color: #6930c3;
+    margin: 0 auto;
+    padding: 10vh 10vw;
+    color: #f7f7ff;
+}
+
+.bottom-sign-up {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4ea8de;
+    padding: 40px 10px;
+    border-radius: 5px;
+}
+
+.left-bottom-sign-up {
+    flex: 1;
+    align-self: center;
+    max-width: 600px;
+}
+
+.bottom-sign-up-button {
+    flex: 1;
+    align-self: center;
+    max-width: 156px;
+    color: #f7f7ff;
+}
+
+/* end of top footer */
+
+/* signature */
+
+.bottom-footer {
+    background-color: #7400b8;
+    margin: 0 auto;
+    padding: 5vh 10vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-git-hub {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my-git-hub:hover {
+    color: rgb(48, 48, 48);
+}
