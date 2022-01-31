@@ -7,4 +7,4 @@ Hope this looks alright and you folks enjoy it for what it is haha.
 
 ## Credits
 
-*
+Credits are included in the website. 
